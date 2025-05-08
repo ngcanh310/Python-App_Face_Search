@@ -1,0 +1,6 @@
+numpy
+pillow
+mtcnn
+keras-facenet
+faiss-cpu
+scipy
