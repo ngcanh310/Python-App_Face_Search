@@ -9,7 +9,7 @@ from app.indexer import create_index
 
 # --- Đường dẫn ---
 IMAGE_DIR = "data/images/"
-FACE_DIR = "data/faces_focus/"
+FACE_DIR = "data/faces/"
 EMBEDDING_FILE = "data/embeddings.npy"
 IMAGE_PATHS_FILE = "data/image_paths.txt"
 FAISS_INDEX_FILE = "data/faiss.index"

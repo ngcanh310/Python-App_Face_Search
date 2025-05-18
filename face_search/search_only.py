@@ -50,7 +50,7 @@ index = faiss.IndexFlatL2(embeddings.shape[1])
 index.add(embeddings)
 
 # --- Ảnh mới để so sánh ---
-query_img_path = "./data/faces_focus/image (188).jpg"  # 💡 Thay ảnh đầu vào tại đây
+query_img_path = "./data/faces/image (10).jpg"  # 💡 Thay ảnh đầu vào tại đây
 print(f"🔍 Đang xử lý ảnh: {query_img_path}")
 
 face = extract_face(query_img_path)
@@ -80,9 +80,3 @@ for rank, idx in enumerate(I[0]):
     if results_shown == 3:
         break
 
-# --- In ra Embedding ---
-print("🔍 Embedding ảnh truy vấn:")
-print(query_embedding)
-
-print("🔍 Embedding ảnh gần nhất trong database:")
-print(embeddings[I[0][0]])
