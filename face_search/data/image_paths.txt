@@ -1,4 +1,8 @@
-data/faces/0 (569).jpg
+data/faces/Anh-em-be-Han-Quoc.jpg
+data/faces/Hinh-anh-co-be-dang-yeu-voi-khuon-mat-bau-binh.jpg
+data/faces/hinh-anh-em-be-de-thuong-dang-yeu-nhat_025011083.jpg
+data/faces/hinh-anh-em-be-de-thuong-tuyet-dep.jpg
+data/faces/hinh-anh-em-be-de-thuong-xinh-xan-nhu-thien-than.jpg
 data/faces/image (1).jpeg
 data/faces/image (10).jpg
 data/faces/image (100).jpg
